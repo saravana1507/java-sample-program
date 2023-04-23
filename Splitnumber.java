@@ -1,4 +1,5 @@
 class Splitnumber
+  \\split the numbers and adding the number to swap
 {
   public static void main(String args[])
    {
