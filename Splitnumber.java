@@ -4,9 +4,9 @@ class Splitnumber
   public static void main(String args[])
    {
       Splitnumber obj=new Splitnumber();
-      int last=obj.unit(70);
+      int last=obj.unit(72);
       int second=obj.secondunit(245);
-      int third=obj.thirdunit(e675);
+      int third=obj.thirdunit(1675);
       int first=obj.firstnum(165);
       int total=obj. sum(last,second,third,first);
       obj.swap(total);
