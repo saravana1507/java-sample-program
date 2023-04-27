@@ -3,10 +3,10 @@ class Splitnumber
   public static void main(String args[])
    {
       Splitnumber obj=new Splitnumber();
-      int last=obj.unit(70);
-      int second=obj.secondunit(245);
-      int third=obj.thirdunit(e675);
-      int first=obj.firstnum(165);
+      int last=obj.unit(1867);
+      int second=obj.secondunit(1867);
+      int third=obj.thirdunit(1867);
+      int first=obj.firstnum(1867);
       int total=obj. sum(last,second,third,first);
       obj.swap(total);
    }
@@ -32,7 +32,7 @@ class Splitnumber
    }
    public int firstnum(int x)
    {
-      int first=x/100;
+      int first=x/1000;
       System.out.println("first number:"+first);
       return first;
    }
