@@ -3,30 +3,30 @@ public class Student_grade
    public static void main(String arg[])
     {
       Student_grade obj= new Student_grade();
-        String letter;
-       obj.grade("A+");
-       obj.grade("A");
-       obj.grade("B");
+       long letter;
+       obj.grade(21l);
+       obj.grade(20l);
+     /*  obj.grade("B");
        obj.grade("B+");
        obj.grade("C");
        obj.grade("C+");
-       obj.grade("a");
+       obj.grade("a"); */
     }
-   public void grade( String letter)
+   public void grade( long letter)
      {
       switch(letter)
        {
-        case "A+":
+        case 20l:
           { 
             System.out.println(letter + "  =mark is 91 to 100");
-            break;
+           break;
           }
-        case "A":
+        case 21l:
           { 
             System.out.println(letter + "  =mark is 81 to 90");
-            break;
+           break;
           }
-        case "B+":
+       /* case "B+":
           { 
             System.out.println(letter + "  =mark is 71 to 80");
             break;
@@ -44,8 +44,8 @@ public class Student_grade
         case "C":
           { 
             System.out.println(letter + "  =mark is below 50");
-            break;
-          }
+            break; 
+          } */
           default:
           {
           System.out.println(letter + "  it is not grade");  
